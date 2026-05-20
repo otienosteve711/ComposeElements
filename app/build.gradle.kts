@@ -54,6 +54,8 @@ dependencies {
     // lifecycle management
     implementation(
         "androidx.lifecycle:lifecycle-runtime-compose:2.8.2")
+    // exo player video player
+    implementation("com.google.android.exoplayer:exoplayer:2.19.1")
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
